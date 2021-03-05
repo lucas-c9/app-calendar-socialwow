@@ -14,7 +14,7 @@ class App extends Component {
       isModalVisible : false,
       isClickInPanel : false,
       value: moment('2017-01-25'),
-      selectedValue: moment('')
+      selectedValue: moment()
     }
 
     this.setNameQuote = this.setNameQuote.bind(this)
